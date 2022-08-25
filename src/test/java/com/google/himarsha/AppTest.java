@@ -27,8 +27,8 @@ public class AppTest
 			searchbox.sendKeys("Disha Patni");
 			searchbox.sendKeys(Keys.ENTER);
 			 
-			WebElement image= driver.findElement(By.linkText("Images"));
-			image.click();
+			WebElement images= driver.findElement(By.linkText("Images"));
+			images.click();
 			
 			Assert.assertEquals(driver.getTitle(),"Disha Patani - Google Search");
 			Thread.sleep(500);
