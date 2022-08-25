@@ -27,8 +27,8 @@ public class search {
 		searchbox.sendKeys("Himarsha Venkatswamy Bikini");
 		searchbox.sendKeys(Keys.ENTER);
 		 
-		WebElement images= driver.findElement(By.linkText("Images"));
-		images.click();
+		WebElement image= driver.findElement(By.linkText("Images"));
+		image.click();
 		
 		Assert.assertEquals(driver.getTitle(),"Himarsha Venkatsamy Bikini - Google Search");
 		Thread.sleep(500);
