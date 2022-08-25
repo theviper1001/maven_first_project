@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-25T19:54:04 IST" name="testing" finished-at="2022-08-25T19:54:39 IST" duration-ms="35458">
+    <groups>
+    </groups>
+    <test started-at="2022-08-25T19:54:04 IST" name="search" finished-at="2022-08-25T19:54:39 IST" duration-ms="35458">
+      <class name="com.google.himarsha.AppTest">
+        <test-method signature="searchhot2()[pri:0, instance:com.google.himarsha.AppTest@4a22f9e2]" started-at="2022-08-25T19:54:04 IST" name="searchhot2" finished-at="2022-08-25T19:54:36 IST" duration-ms="32488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchhot2 -->
+      </class> <!-- com.google.himarsha.AppTest -->
+      <class name="com.google.himarsha.search">
+        <test-method signature="searchhot()[pri:0, instance:com.google.himarsha.search@49b0b76]" started-at="2022-08-25T19:54:04 IST" name="searchhot" finished-at="2022-08-25T19:54:39 IST" duration-ms="35359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchhot -->
+      </class> <!-- com.google.himarsha.search -->
+    </test> <!-- search -->
+  </suite> <!-- testing -->
+</testng-results>
