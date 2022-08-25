@@ -24,13 +24,13 @@ public class AppTest
 			driver.manage().window().maximize();
 			
 			WebElement searchbox = driver.findElement(By.name("q"));
-			searchbox.sendKeys("Disha Patni Bikini");
+			searchbox.sendKeys("Disha Patni");
 			searchbox.sendKeys(Keys.ENTER);
 			 
-			WebElement images= driver.findElement(By.linkText("Images"));
-			images.click();
+			WebElement image= driver.findElement(By.linkText("Images"));
+			image.click();
 			
-			Assert.assertEquals(driver.getTitle(),"Disha Patani Bikini - Google Search");
+			Assert.assertEquals(driver.getTitle(),"Disha Patani - Google Search");
 			Thread.sleep(500);
 			driver.close();
 		
